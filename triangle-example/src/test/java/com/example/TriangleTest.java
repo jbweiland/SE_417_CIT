@@ -71,7 +71,7 @@ public class TriangleTest {
     assertEquals(ISOSCELES, type);
   }
     
-  // testing travis ci
+  // testing travis ci, see if it builds now
    @Test
   public void testIsoceles2() {
     final TriangleType type = Triangle.classify(4, 3, 4);
