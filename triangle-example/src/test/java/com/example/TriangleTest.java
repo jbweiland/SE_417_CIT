@@ -70,5 +70,12 @@ public class TriangleTest {
     final TriangleType type = Triangle.classify(2, 3, 2);
     assertEquals(ISOSCELES, type);
   }
+    
+  // testing travis ci
+   @Test
+  public void testIsoceles2() {
+    final TriangleType type = Triangle.classify(4, 3, 4);
+    assertEquals(ISOSCELES, type);
+  }
 
 }
